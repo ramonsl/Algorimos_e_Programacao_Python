@@ -1,5 +1,8 @@
 
-from operator import truediv
+
+
+
+from cmath import sqrt
 
 
 nome="ramon"
@@ -16,7 +19,7 @@ if umidade>=50:
     is_umidade=True
 else:
     is_umidade=False
-    
+
 nota_ps=float(input("Digite a nota"))
 if nota_ps >=6:
     print("Você foi aprovado\n")
@@ -30,6 +33,4 @@ else:
     print("você não foi aprovado")
 
 print(f"sua nota é{nota_ps}")
-
-
 
